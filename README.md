@@ -8,6 +8,7 @@ After ripping it apart and desoldering the board from the main plug, I've identi
 To my suprise, this is quite a powerful chip. Following are some of it's spec from it's datasheet:
 
 --------------------------------------------------------------------------------------------------------------------------------
+https://fccid.io/YCJGTIMW302/User-Manual/User-manual-2777835.html
 Processor 32-bit ARM Cortex-M4F running at 200 MHz
 Memory    128KB ROM, 512KB RAM
 
