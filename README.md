@@ -55,10 +55,11 @@ From left to right
 6. 3v +
 7. 3v - (GND ?)
 
-a. Measuring between 1 & 2, 1 & 7, 6 & 7, 6 & 2 will have a 3.3v reading.
-b. Jumping any of the 3 & 7 or 3 & 2 or 3 & GND will trigger the button pressed event.
-c. Hooking 4 & 5 to RX TX doesn't give any reading.
-d. Jumping boot0, boot1, testmode with any of the 3v / GND doesn't seems to trigger anything.
+Notes
+1. Measuring between 1 & 2, 1 & 7, 6 & 7, 6 & 2 will have a 3.3v reading.
+2. Jumping any of the 3 & 7 or 3 & 2 or 3 & GND will trigger the button pressed event.
+3. Hooking 4 & 5 to RX TX doesn't give any reading.
+4. Jumping boot0, boot1, testmode with any of the 3v / GND doesn't seems to trigger anything.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
