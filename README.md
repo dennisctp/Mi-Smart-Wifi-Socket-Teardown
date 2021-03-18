@@ -55,10 +55,10 @@ From left to right
 6. 3v +
 7. 3v -
 
-measuring between 1 & 2, 1 & 7, 6 & 7, 6 & 2 will have a 3.3v reading.
-Jumping any of the 3 & 7 or 3 & 2 will trigger the button pressed event.
+i) Measuring between 1 & 2, 1 & 7, 6 & 7, 6 & 2 will have a 3.3v reading.
+ii) Jumping any of the 3 & 7 or 3 & 2 will trigger the button pressed event.
+iii) Hooking 4 & 5 to RX TX doesn't give any reading.
 
-Hooking 4 & 5 to RX TX doesn't give any reading.
 --------------------------------------------------------------------------------------------------------------------------------
 
 out of the obvious, I used a USB UART board and connect to the 3v3 pin, GND, RX and TX
