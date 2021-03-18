@@ -47,13 +47,13 @@ Clk
 
 There's also 7 pin at the bottom.
 From left to right
-1 3v +
-2 3v -
-3 button press
-4
-5
-6 3v +
-7 3v -
+1. 3v +
+2. 3v -
+3. button press
+4.
+5.
+6. 3v +
+7. 3v -
 
 measuring between 1 & 2, 1 & 7, 6 & 7, 6 & 2 will have a 3.3v reading.
 Jumping any of the 3 & 7 or 3 & 2 will trigger the button pressed event.
