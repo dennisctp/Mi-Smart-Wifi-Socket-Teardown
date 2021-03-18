@@ -25,25 +25,25 @@ A complete set of digital and analog interfaces enable direct interfacing for I/
 
 After extracting the board, there are some extra pinout from the board with the following labels:
 (From top to bottom)
-Boot0
-TestMode
-Gate (Not clear, might be wrong)
-CN (Not clear, might be wrong)
-D0
-D1
-D2
-D3
-RX
-TX 
-TMS (Not clear, might be wrong)
-RST
-DO (Not clear, might be wrong)
-CK (Not clear, might be wrong)
-DI (Not clear, might be wrong)
-3V3
-GND
-BOOT1
-Clk
+1. Boot0
+2. TestMode
+3. Gate (Not clear, might be wrong)
+4. CN (Not clear, might be wrong)
+5. D0
+6. D1
+7. D2
+8. D3
+9. RX
+10. TX 
+11. TMS (Not clear, might be wrong)
+12. RST
+13. DO (Not clear, might be wrong)
+14. CK (Not clear, might be wrong)
+15. DI (Not clear, might be wrong)
+16. 3V3
+17. GND
+18. BOOT1
+19. Clk
 
 There's also 7 pin at the bottom.
 From left to right
@@ -55,9 +55,10 @@ From left to right
 6. 3v +
 7. 3v - (GND ?)
 
-i) Measuring between 1 & 2, 1 & 7, 6 & 7, 6 & 2 will have a 3.3v reading.
-ii) Jumping any of the 3 & 7 or 3 & 2 or 3 & GND will trigger the button pressed event.
-iii) Hooking 4 & 5 to RX TX doesn't give any reading.
+a. Measuring between 1 & 2, 1 & 7, 6 & 7, 6 & 2 will have a 3.3v reading.
+b. Jumping any of the 3 & 7 or 3 & 2 or 3 & GND will trigger the button pressed event.
+c. Hooking 4 & 5 to RX TX doesn't give any reading.
+d. Jumping boot0, boot1, testmode with any of the 3v / GND doesn't seems to trigger anything.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
