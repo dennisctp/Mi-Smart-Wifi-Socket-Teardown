@@ -28,23 +28,23 @@ After extracting the board, there are some extra pinout from the board with the 
 (From top to bottom)
 1. Boot0
 2. TestMode
-3. Gate (Not clear, might be wrong)
-4. CN (Not clear, might be wrong)
-5. D0
-6. D1
-7. D2
-8. D3
+3. Gate? (Not clear, might be wrong)
+4. CS? (Not clear, could be SSN for QSPI Interface)
+5. D0 (Judging from Datasheet, looks like QSPI Interface)
+6. D1 (Judging from Datasheet, looks like QSPI Interface)
+7. D2 (Judging from Datasheet, looks like QSPI Interface)
+8. D3 (Judging from Datasheet, looks like QSPI Interface)
 9. RX
 10. TX 
-11. TMS (Not clear, might be wrong)
-12. RST
-13. DO (Not clear, might be wrong)
-14. CK (Not clear, might be wrong)
-15. DI (Not clear, might be wrong)
-16. 3V3
+11. TMS (JTAG Interface?)
+12. RST (JTAG Interface?)
+13. DO (JTAG Interface?)
+14. CK (JTAG Interface?)
+15. DI (JTAG Interface?)
+16. 3V3 - can be use to power the board with GND
 17. GND
 18. BOOT1
-19. Clk
+19. Clk  (Judging from Datasheet, looks like QSPI Interface)
 
 There's also 7 pin at the bottom.
 From left to right
@@ -61,6 +61,7 @@ Notes
 2. Jumping any of the 3 & 7 or 3 & 2 or 3 & GND will trigger the button pressed event.
 3. Hooking 4 & 5 to RX TX doesn't give any reading.
 4. Jumping boot0, boot1, testmode with any of the 3v / GND doesn't seems to trigger anything.
+5. There's 2 interface with RX TX from datasheet, which is UART and SSP. not sure which one the RX TX belongs to.
 
 --------------------------------------------------------------------------------------------------------------------------------
 
