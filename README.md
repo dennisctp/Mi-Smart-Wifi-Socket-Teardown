@@ -63,7 +63,7 @@ Notes
 4. Jumping boot0, boot1, testmode with any of the 3v / GND doesn't seems to trigger anything.
 5. There's 2 interface with RX TX from datasheet, should belong to UART
 6. JTAG seems like an interface for testing the board. QSPI looks like could be a way to flash the board.
-7. For boot0 and boot1, might be use for configuration pin where 00 = boot from UART, 01 = reserved, 10 = boot from USB, 11 = boot from flash (default)
+7. For boot0 and boot1, might be use for configuration pin where 00 = boot from UART, 01 = reserved, 10 = boot from USB, 11 = boot from flash (default) to set the pin to 0, need to connect a 100k ohm resistor from the pin to ground
 
 --------------------------------------------------------------------------------------------------------------------------------
 
