@@ -61,7 +61,9 @@ Notes
 2. Jumping any of the 3 & 7 or 3 & 2 or 3 & GND will trigger the button pressed event.
 3. Hooking 4 & 5 to RX TX doesn't give any reading.
 4. Jumping boot0, boot1, testmode with any of the 3v / GND doesn't seems to trigger anything.
-5. There's 2 interface with RX TX from datasheet, which is UART and SSP. not sure which one the RX TX belongs to.
+5. There's 2 interface with RX TX from datasheet, should belong to UART
+6. JTAG seems like an interface for testing the board. QSPI looks like could be a way to flash the board.
+7. For boot0 and boot1, might be use for configuration pin where 00 = boot from UART, 01 = reserved, 10 = boot from USB, 11 = boot from flash (default)
 
 --------------------------------------------------------------------------------------------------------------------------------
 
